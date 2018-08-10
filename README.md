@@ -9,5 +9,8 @@ The constraints are:
 3) Each UAV model has different set of controls and each missions requires some particular sets of controls to be accomplished. So, the      assigned UAV should be able to perform the mission. 
 4) Each pilot should be assigned an unique UAV and it should perform all its missions with that UAV.
 
+test.txt file contains the test input to the CSP. It has different types of UAV models, Mission types and their acceptable models, pilot names and the models that they can fly and their preference for particular UAV models. 
 
+output_test.txt file contains the output of the CSP. It represents the following:
+mission - UAV model assigned - pilot assigned - Does pilot prefer this assigned UAV model.
 
