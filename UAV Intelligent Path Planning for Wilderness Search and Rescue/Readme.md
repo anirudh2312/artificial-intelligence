@@ -4,10 +4,12 @@ cc.py is the implementation of the Complete Coverage algorithm.
 
 cc_var.py is the implementation of the variation alogirthm of complete coverage.
 
-Heatmap1 and heatmap2 have the coordinates of the wild park and the corresponding probability of finding the person at those corrdiantes.
+Heatmap1 and heatmap2 have the coordinates of the wild park and the corresponding probability of finding the person at those coordinates.
 
 output_cc_heatmap1 is the output of cc.py on heatmap1
 output_cc_heatmap2 is the output of cc.py on heatmap2
 output_cc_var_heatmap1 is the output of cc_var.py on heatmap1
 output_cc_var_heatmap2 is the output of cc_var.py on heatmap2
+
+The output files show the coordinates in an order in which UAV should visit first so as to minimize the amount of time to search. 
 
